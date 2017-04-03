@@ -8,6 +8,9 @@ class Library {
 	String location
 	int studySpaces
 
+static hasMany=[librarians:Librarian, books:Book, students:Student]
+
+
     static constraints = {
 	
 	name blank:false, nullable:false

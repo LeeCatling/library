@@ -9,6 +9,7 @@ class Course {
 	String description 
 	String studyMode
 
+static hasMany=[students:Student]
 
     static constraints = {
 	
