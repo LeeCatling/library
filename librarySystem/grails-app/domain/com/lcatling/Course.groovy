@@ -17,7 +17,7 @@ static hasMany=[students:Student]
 	code blank:false, nullable:false
 	leader blank:false, nullable:false
 	department blank:false, nullable:false
-	description blank:false, nullable:false maxSize: 1000, widget:'textarea'
+	description blank:false, nullable:false, maxSize:1000, widget:'textarea'
 	studyMode blank:false, nullable:false, size:1..20
     }
 }

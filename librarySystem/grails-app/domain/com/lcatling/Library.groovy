@@ -7,6 +7,7 @@ class Library {
 	String openingHours
 	String location
 	int studySpaces
+	
 
 static hasMany=[librarians:Librarian, books:Book, students:Student]
 
@@ -17,6 +18,6 @@ static hasMany=[librarians:Librarian, books:Book, students:Student]
 	address blank:false, nullable:false, widget:'textarea'
 	openingHours blank:false, nullable:false
 	location blank:false, nullable:false
-	studySpaces blank:false, nullable:false, min:1, max:100
+	studySpaces blank:false, nullable:false, min:1, max:1000
     }
 }

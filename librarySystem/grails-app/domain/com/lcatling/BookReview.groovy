@@ -2,10 +2,10 @@ package com.lcatling
 
 class BookReview {
 
-	Book book
 	Date datePublished
 	Student student
 	String review
+	Book book
 
 
 

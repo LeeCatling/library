@@ -2,7 +2,7 @@ package com.lcatling
 
 class Book {
 	
-	String tittle
+	String title
 	String subject
 	String author
 	String isbn
@@ -23,6 +23,8 @@ static hasMany=[bookReviews:BookReview]
 	dateBorrowed blank:false, nullable:false
 	returnDate blank:false, nullable:false
 	student blank:false, nullable:false
+	library blank:false, nullable:false
 	overdue blank:false, nullable:false
+	
     }
 }
