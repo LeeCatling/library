@@ -10,6 +10,10 @@ class Librarian {
 	String telephone
 	Library library
 
+	String toString() {
+		"$name"
+	}
+
     static constraints = {
 	name blank:false, nullable:false
 	email blank:false, nullable:false, email:true

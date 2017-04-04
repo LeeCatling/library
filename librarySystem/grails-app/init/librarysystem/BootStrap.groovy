@@ -3,7 +3,7 @@ package com.lcatling
 class BootStrap {
 
     def init = { servletContext ->
-	def library1 = new Library(
+	/*def library1 = new Library(
 		name: 'Adsetts',
 		address: '34 sheffield way',
 		openingHours: '9:00-23:00',
@@ -115,7 +115,7 @@ class BootStrap {
 		book: book2
 	).save()
 	     
-	     
+	*/     
     }
     def destroy = {
     }

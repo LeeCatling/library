@@ -8,6 +8,9 @@ class Library {
 	String location
 	int studySpaces
 	
+	String toString() {
+		"$name"
+	}
 
 static hasMany=[librarians:Librarian, books:Book, students:Student]
 

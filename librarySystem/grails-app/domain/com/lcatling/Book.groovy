@@ -11,6 +11,10 @@ class Book {
 	Student student
 	Library library
 	Boolean overdue
+
+	String toString() {
+		"$title"
+	}
 static hasMany=[bookReviews:BookReview]
 
 

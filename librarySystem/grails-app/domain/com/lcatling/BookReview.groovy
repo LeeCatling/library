@@ -7,6 +7,10 @@ class BookReview {
 	String review
 	Book book
 
+	String toString() {
+		"Review of $book by $student"
+	}
+
 
 
     static constraints = {
