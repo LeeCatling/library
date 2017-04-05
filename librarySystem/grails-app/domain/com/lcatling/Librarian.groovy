@@ -13,6 +13,9 @@ class Librarian {
 	String toString() {
 		"$name"
 	}
+	def login(){
+
+	}
 
     static constraints = {
 	name blank:false, nullable:false
