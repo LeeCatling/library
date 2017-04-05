@@ -30,7 +30,7 @@
 				</td></tr>
 			<tr><td></td>
 				<td>
-					<input type="submit" value="login"/>
+					<input type="submit" value="login" style="background-color:#aacaff"/>
 				</td></tr>
 		</table>
 	</g:form>

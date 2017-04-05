@@ -20,7 +20,7 @@
 
 	<button type="button" class="btn btn-success">
 		
-		<g:link controller="Students" action="create">Students</g:link>
+		<g:link controller="Student" action="create">Students</g:link>
 	</button>
 </div>
 
@@ -32,7 +32,7 @@
 
 	<button type="button" class="btn btn-success">
 		
-		<g:link controller="Library" action="create">Library</g:link>
+		<g:link controller="Book" action="create">add book</g:link>
 	</button>
 </div>
 

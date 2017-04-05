@@ -16,7 +16,7 @@ if(session.role=='librarian') {
 	out<<" Librarian Logout</a></span>"
 }
 if(session.role=='student'){
-	out << "<span style='float:right;megin-right:15px'>"
+	out << "</span><span style='float:right;megin-right:15px'>"
 	out<<"<a href='${createLink(controller:'student',action:'logout')}'>"
 	out<<"Logout</a></span>"
 }
@@ -24,7 +24,7 @@ if(session.role=='student'){
 } else{
 out<<"<span style='float:right;margin-right:10px'>"
 out<<"<a href='${createLink(controller:'librarian',action:'login')}'>"
-out<<" Librarin Login</a></span>"
+out<<" Librarian Login</a></span>"
 out<<"<span style='float:right;margin-right:10px'>"
 out<<"<a href='${createLink(controller:'student',action:'login')}'>"
 out<<"Student Login</a></span>"

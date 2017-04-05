@@ -44,7 +44,7 @@ pre {
 
 }
 .navbar-default, .navbar-static-top {
-    background-color: #4D8618;
+    background-color: #aacaff;
     border: 0px;
 }
 a.navbar-brand {
@@ -380,15 +380,8 @@ body, html {
     font-size: 14px;
 }
 
-a {
-    color: #db4800;
-    text-decoration: underline;
-}
 
-a:hover {
-    color: #db4800;
-    text-decoration: none
-}
+
 
 h1 {
     font-size: 2.125em;

@@ -44,7 +44,7 @@
 
 	<button type="button" class="btn btn-success">
 		
-		<g:link controller="Books" action="index">Books</g:link>
+		<g:link controller="Book" action="index">Books</g:link>
 	</button>
 </div>
 <div class="third">

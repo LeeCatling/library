@@ -20,7 +20,7 @@
 id="${book.id}">${book.title}</g:link></li>
  </g:each>
  </ul>
- <g:link action='search'>Search Again</g:link>
+ <button class="btn" style="background-color:#aacaff"><g:link action='search'>Search Again</g:link></button>
 </div>
 </body>
 </html>

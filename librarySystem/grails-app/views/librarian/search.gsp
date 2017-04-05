@@ -36,7 +36,7 @@
 	<tr>
  		<td/>
  		<td>
- 		<g:submitButton name="search" value="Search"/></td>
+ 		<g:submitButton name="search" value="Search" style="background-color:#aacaff"/></td>
  	</tr>
  		</g:form>
  	</table>
