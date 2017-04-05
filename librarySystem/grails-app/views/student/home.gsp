@@ -14,49 +14,37 @@
 
 <div class="first">
 	
-		<h3> Register students</h3>
+		<h3> Create reveiw</h3>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam quam leo, id rutrum tortor pharetra nec. Ut convallis ex quis lacinia semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed tristique sed libero a scelerisque. Nulla ac lectus fringilla, venenatis augue vel, eleifend mauris. Duis a nulla at elit imperdiet posuere in rutrum dolor. Sed gravida elementum hendrerit. Vestibulum dolor velit, commodo et augue a, venenatis ultrices eros. </p>
 
 	<button type="button" class="btn btn-success">
 		
-		<g:link controller="Students" action="create">Students</g:link>
+		<g:link controller="BookReview" action="create">Add Book Review</g:link>
 	</button>
 </div>
 
 <div class="second">
 	
-		<h3>Add books to Library</h3>
+		<h3>Display reviews</h3>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam quam leo, id rutrum tortor pharetra nec. Ut convallis ex quis lacinia semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed tristique sed libero a scelerisque. Nulla ac lectus fringilla, venenatis augue vel, eleifend mauris. Duis a nulla at elit imperdiet posuere in rutrum dolor. Sed gravida elementum hendrerit. Vestibulum dolor velit, commodo et augue a, venenatis ultrices eros. </p>
 
 	<button type="button" class="btn btn-success">
 		
-		<g:link controller="Library" action="create">Library</g:link>
+		<g:link controller="BookReview" action="index"> List Book Reviews</g:link>
 	</button>
 </div>
 
 <div class="third">
 	
-		<h3>Enter course details</h3>
+		<h3>Display details of books in library</h3>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam quam leo, id rutrum tortor pharetra nec. Ut convallis ex quis lacinia semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed tristique sed libero a scelerisque. Nulla ac lectus fringilla, venenatis augue vel, eleifend mauris. Duis a nulla at elit imperdiet posuere in rutrum dolor. Sed gravida elementum hendrerit. Vestibulum dolor velit, commodo et augue a, venenatis ultrices eros. </p>
 
 	<button type="button" class="btn btn-success">
 		
-		<g:link controller="Course" action="create">Course</g:link>
-	</button>
-</div>
-
-<div class="first">
-	
-		<h3>Register other librarians</h3>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam quam leo, id rutrum tortor pharetra nec. Ut convallis ex quis lacinia semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed tristique sed libero a scelerisque. Nulla ac lectus fringilla, venenatis augue vel, eleifend mauris. Duis a nulla at elit imperdiet posuere in rutrum dolor. Sed gravida elementum hendrerit. Vestibulum dolor velit, commodo et augue a, venenatis ultrices eros. </p>
-
-	<button type="button" class="btn btn-success">
-		
-		<g:link controller="Librarian" action="create">Librarian</g:link>
+		<g:link controller="Books" action="index">Books</g:link>
 	</button>
 </div>
 

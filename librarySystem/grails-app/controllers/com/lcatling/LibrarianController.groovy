@@ -14,7 +14,7 @@ def user = Librarian.findByUserName(params.username)
 if(user && user.password == params.password){
 
 session.user = user
-
+session.role = 'librarian'
 render view:'home'
 
 }
